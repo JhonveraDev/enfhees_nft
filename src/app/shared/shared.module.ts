@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { MainFooterComponent } from './components/main-footer/main-footer.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -11,10 +12,12 @@ import { MainFooterComponent } from './components/main-footer/main-footer.compon
     MainFooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ], 
   exports: [
-    MainMenuComponent
+    MainMenuComponent,
+    MainFooterComponent
   ]
 })
 export class SharedModule { }

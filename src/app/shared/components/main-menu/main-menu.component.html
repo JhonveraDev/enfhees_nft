@@ -1,1 +1,26 @@
-<p>main-menu works!</p>
+<div class="menu">
+  <div class="menu__container">
+    <a [routerLink]="['/home']">
+      <img src="../../../../assets/logo.svg" alt="Logo" class="menu__logo" />
+    </a>
+
+    <div class="menu__search">
+      <input type="search" id="site-search" name="site-search" placeholder="Search" />
+      <span class="search-icon"><img src="../../../../assets/magnifying-glass.svg" alt=""></span>
+    </div>
+
+    <nav class="menu__nav">
+      <ul>
+        <li *ngFor="let item of navigationItems">
+          <a [routerLink]="item.route"> {{item.name}} </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="menu__notices">
+      <div class="menu__report"><img src="../../../../assets/bell.svg" alt=""></div>
+      <div class="menu__report"><img src="../../../../assets/user.svg" alt=""></div>
+      <a href="" class="menu__wallet"><span>Connect Wallet</span></a>
+    </div>
+  </div>
+</div>

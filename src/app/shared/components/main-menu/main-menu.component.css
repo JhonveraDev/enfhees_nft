@@ -1,0 +1,112 @@
+.menu {
+  align-items: center;
+  background-color: var(--container-color);
+  display: flex;
+  height: 90px;
+}
+
+.menu__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1650px;
+}
+
+.menu__logo {
+  height: 45px;
+  vertical-align: middle;
+}
+
+.menu__search {
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.3) 0%, rgba(63, 94, 251, 0.3) 100%);
+  padding: 1px;
+  position: relative;
+  border-radius: 30px;
+  width: 250px;
+}
+
+.menu__search input {
+  height: 42px;
+  font-size: 15px;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border-radius: inherit;
+  width: 100%;
+  background-color: var(--container-color);
+  color: #Fff;
+}
+
+.menu__search .search-icon {
+  position: absolute;
+  right: 0;
+  padding: 11px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 0;
+  border: none;
+  background: transparent;
+  height: 100%;
+}
+
+.menu__search .search-icon img {
+  width: 19px;
+  height: 19px;
+}
+
+.menu__nav li {
+  font-size: 16px;
+  margin-right: 25px;
+  padding: 20px 0;
+}
+
+.menu__nav li a:hover {
+  color: var(--text-hover-color);
+  transition: all 0.3s ease;
+}
+
+.menu__nav ul {
+  align-items: center;
+  display: flex;
+}
+
+.menu__notices {
+  align-items: center;
+  display: flex;
+}
+
+.menu__report {
+  align-items: center;
+  background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  height: 44px;
+  justify-content: center;
+  margin-right: 15px;
+  width: 44px;
+}
+
+.menu__report img {
+  width: 19px;
+  height: 19px;
+}
+
+.menu__wallet {
+  background-color: #3772ff;
+  border-radius: 1.6em;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding: 10px 30px;
+}

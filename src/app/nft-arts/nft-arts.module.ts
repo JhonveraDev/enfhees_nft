@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './pages/home/home.component';
+import { NftArtsComponent } from './pages/nft-arts/nft-arts.component';
+
+
+
 @NgModule({
   declarations: [
-    HomeComponent,
+    NftArtsComponent
   ],
   imports: [
-    CommonModule,
+    CommonModule
   ]
 })
-export class HomeModule { }
+export class NftArtsModule { }
