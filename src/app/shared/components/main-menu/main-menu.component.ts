@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Navigation } from '../../interfaces/shared.interface';
 @Component({
   selector: 'app-main-menu',
   templateUrl: './main-menu.component.html',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class MainMenuComponent {
-  navigationItems = [
+  navigationItems: Navigation[] = [
     { route: '/home', name: 'Home' },
     { route: '/nft-arts', name: 'Nft arts' },
     { route: '/our-artists', name: 'Our artists' },

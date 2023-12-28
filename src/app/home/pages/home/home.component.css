@@ -1,0 +1,16 @@
+.home__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.big__container {
+  width: 1660px;
+}
+
+.medium__container {
+  width: 1350px;
+}

@@ -12,7 +12,7 @@
 }
 
 .footer__items {
-  align-items: start;
+  align-items: flex-start;
   display: flex;
   justify-content: space-between;
   padding: 100px 0;
@@ -31,6 +31,7 @@
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .footer__copyright {
@@ -102,6 +103,7 @@
   background: linear-gradient(140deg, rgba(48, 18, 62, 1) 35%, rgba(27, 21, 78, 1) 100%);
   border-radius: 7px;
   color: #fff;
+  cursor: pointer;
   display: flex;
   height: 42px;
   justify-content: center;
@@ -111,5 +113,5 @@
 
 .footer__icon img {
   height: auto;
-  width: 19px;
+  width: 18px;
 }
