@@ -1,1 +1,48 @@
-<p>main-footer works!</p>
+<div class="footer">
+  <div class="footer__container">
+    <div class="footer__items">
+      <div class="footer__marketplace">
+        <h2>Marketplace</h2>
+        <nav>
+          <ul>
+            <li *ngFor="let item of marketplace">{{item}}</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__account">
+        <h2>Account</h2>
+        <nav>
+          <ul>
+            <li *ngFor="let item of account">{{item}}</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__company">
+        <h2>Company</h2>
+        <nav>
+          <ul>
+            <li *ngFor="let item of company">{{item}}</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__subscribe">
+        <h2>Subscribe to our newsletter.</h2>
+        <div class="footer__search">
+          <input type="search" id="site-search" name="site-search" placeholder="Enter Your Email" />
+          <span class="search-icon"><img src="../../../../assets/right-arrow.svg" alt=""></span>
+        </div>
+        <div class="footer__social">
+          <div class="footer__icon" *ngFor="let item of socialItem"><img [src]="item.image" [alt]="item.alt"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__line"></div>
+    <div class="footer__copyright">
+      <div>Copyright 2022. Created by Thememarch.</div>
+      <ul>
+        <li>Privacy Policy</li>
+        <li>Term & Condition</li>
+      </ul>
+    </div>
+  </div>
+</div>
