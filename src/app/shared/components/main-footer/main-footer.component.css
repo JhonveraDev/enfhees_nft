@@ -4,17 +4,17 @@
 }
 
 .footer__container {
+  margin: auto;
+  max-width: 1350px;
   padding-left: 15px;
   padding-right: 15px;
   width: 1350px;
-  max-width: 1350px;
-  margin: auto;
 }
 
 .footer__items {
+  align-items: start;
   display: flex;
   justify-content: space-between;
-  align-items: start;
   padding: 100px 0;
 }
 
@@ -26,16 +26,16 @@
 }
 
 .footer__items nav ul li {
+  color: #d4d4d4;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  color: #d4d4d4;
   margin-bottom: 10px;
 }
 
 .footer__copyright {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   padding: 30px 0;
 }
@@ -49,41 +49,40 @@
 }
 
 .footer__line {
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.5) 0%, rgba(63, 94, 251, 0.5) 100%);
   height: 1px;
   width: 100%;
-  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.5) 0%, rgba(63, 94, 251, 0.5) 100%);
 }
 
 .footer__search {
-  position: relative;
-  border-radius: 2em;
   background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.6) 0%, rgba(63, 94, 251, 0.6) 100%);
+  border-radius: 2em;
   padding: 1px;
+  position: relative;
 }
 
 .footer__search input {
-  width: 400px;
-  height: 54px;
-  padding: 10px 20px;
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.1) -83.71%, rgba(63, 94, 251, 0.1) 16.29%);
+  background: #0f0935;
   border: none;
   border-radius: 2em;
-  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.1) -83.71%, rgba(63, 94, 251, 0.1) 16.29%);
-  background: #3d3288;
-  outline: none;
   color: #fff;
-  background: #0f0935;
+  height: 54px;
+  outline: none;
+  padding: 10px 20px;
+  width: 400px;
 }
 
 .footer__search .search-icon {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  border: none;
   background-color: transparent;
+  border: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .footer__search .search-icon img {
@@ -93,24 +92,24 @@
 
 .footer__social {
   display: flex;
-
   margin-top: 20px;
+  margin-left: -10px;
 }
 
 .footer__social .footer__icon {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 7px;
-  width: 42px;
-  height: 42px;
-  color: #fff;
-  margin: 10px;
   background: rgb(48, 18, 62);
   background: linear-gradient(140deg, rgba(48, 18, 62, 1) 35%, rgba(27, 21, 78, 1) 100%);
+  border-radius: 7px;
+  color: #fff;
+  display: flex;
+  height: 42px;
+  justify-content: center;
+  margin: 10px;
+  width: 42px;
 }
 
 .footer__icon img {
-  width: 19px;
   height: auto;
+  width: 19px;
 }
