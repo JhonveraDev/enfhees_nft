@@ -1,7 +1,60 @@
 .recent-users {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 40px 0;
 }
 
 h2 {
   font-size: 36px;
+}
+
+.recent-users__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.recent-users__card {
+  align-items: center;
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.2) 0%, rgba(63, 94, 251, 0.2) 100%);
+  border-radius: 5px;
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  padding: 15px;
+  width: 308px;
+}
+
+.recent-users__card h3 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.recent-users__card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--body-font);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.recent-users__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+}
+
+.recent-users__info .recent-users__data img {
+  height: auto;
+  width: 17px;
+}
+
+.recent-users__data {
+  column-gap: 7px;
+  display: flex;
+  justify-content: flex-start;
 }
