@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GalleryNewNftsService } from '../../services/gallery-new-nfts.service';
-import { Image } from '../../interfaces/home.interfaces';
+import { NewNft } from '../../interfaces/home.interfaces';
 
 @Component({
   selector: 'app-recent-nft',
@@ -8,16 +8,17 @@ import { Image } from '../../interfaces/home.interfaces';
   styleUrls: ['./recent-nft.component.css']
 })
 export class RecentNftComponent implements OnInit {
-  images: Image[] = [];
+  images: NewNft[] = [];
   categories: string[] = [];
   selectedCategory: string = '';
 
   constructor( private _GalleryNewNftsService: GalleryNewNftsService ) { }
 
+
   ngOnInit() {
     this.images = this._GalleryNewNftsService.getImages();
-    this.categories = this._GalleryNewNftsService.getCategories(); 
-    this.selectedCategory = this.categories[0];
+    this.categories = this._GalleryNewNftsService.getCategories();
+    this.selectedCategory = 'All';
   }
 
   filterByCategory(category: string) {

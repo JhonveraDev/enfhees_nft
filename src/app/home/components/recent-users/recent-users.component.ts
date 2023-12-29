@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { recentUser } from '../../interfaces/home.interfaces';
+import { RecentUser } from '../../interfaces/home.interfaces';
 
 @Component({
   selector: 'app-recent-users',
@@ -7,7 +7,7 @@ import { recentUser } from '../../interfaces/home.interfaces';
   styleUrls: ['./recent-users.component.css']
 })
 export class RecentUsersComponent {
-  recentUsers: recentUser[] = [
+  recentUsers: RecentUser[] = [
     { name: 'Gallante J.', items: 340, elements: 11.3, views: 4.1, avatar: '../../../../assets/avatar_30.png' },
     { name: 'Debit A.', items: 760, elements: 4.1, views: 12.3, avatar: '../../../../assets/avatar_31.png' },
     { name: 'Johnny E.', items: 760, elements: 1.3, views: 8.1, avatar: '../../../../assets/avatar_32.png' },

@@ -1,4 +1,4 @@
-export interface recentUser {
+export interface RecentUser {
   name: string;
   items: number;
   elements: number;
@@ -6,7 +6,7 @@ export interface recentUser {
   avatar: string;
 }
 
-export interface Image {
+export interface NewNft {
   id: number;
   title: string;
   category: string;
