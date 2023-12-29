@@ -5,3 +5,10 @@ export interface recentUser {
   views: number;
   avatar: string;
 }
+
+export interface Image {
+  id: number;
+  title: string;
+  category: string;
+  url: string;
+}

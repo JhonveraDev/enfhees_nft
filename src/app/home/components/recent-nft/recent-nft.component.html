@@ -1,3 +1,15 @@
 <div class="recent-nft">
   <h2>New NFT</h2>
+  <div>
+    <label>Filter by category:</label>
+    <div>
+      <button *ngFor="let category of categories" [class.active]="category === selectedCategory" (click)="filterByCategory(category)">
+        {{ category }}
+      </button>
+    </div>
+  </div>
+
+  <div *ngFor="let image of images">
+    <img [src]="image.url" alt="{{ image.title }}" />
+  </div>
 </div>
