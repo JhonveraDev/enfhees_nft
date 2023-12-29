@@ -1,20 +1,20 @@
 <div class="recent-users">
   <h2>Our Recent Users</h2>
   <div class="recent-users__cards">
-    <div class="recent-users__card">
-      <img src="../../../../assets/avatar_30.png" alt="" />
+    <div class="recent-users__card" *ngFor="let recentUser of recentUsers">
+      <img [src]="recentUser.avatar" alt="" />
       <div class="recent-users__info">
-        <h3>Gallante J.</h3>
-        <p>11.3K</p>
+        <h3>{{recentUser.name}}</h3>
+        <p>{{recentUser.elements}}K</p>
       </div>
       <div class="recent-users__info">
         <div class="recent-users__data">
           <img src="../../../../assets/list.svg" alt="">
-          <p>340 Items</p>
+          <p>{{ recentUser.items }} Items</p>
         </div>
         <div class="recent-users__data">
           <img src="../../../../assets/view.svg">
-          <p>4.1K Views</p>
+          <p>{{ recentUser.views }}K Views</p>
         </div>
       </div>
     </div>
