@@ -12,13 +12,12 @@ export class RecentNftComponent implements OnInit {
   categories: string[] = [];
   selectedCategory: string = '';
 
-  constructor( private _GalleryNewNftsService: GalleryNewNftsService ) { }
-
+  constructor(private _GalleryNewNftsService: GalleryNewNftsService) { }
 
   ngOnInit() {
     this.images = this._GalleryNewNftsService.getImages();
     this.categories = this._GalleryNewNftsService.getCategories();
-    this.selectedCategory = 'All';
+    this.selectedCategory = 'All NFT';
   }
 
   filterByCategory(category: string) {

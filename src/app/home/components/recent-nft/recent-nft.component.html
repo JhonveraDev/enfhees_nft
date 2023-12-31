@@ -1,17 +1,17 @@
 <div class="recent-nft">
-  <h2>New NFT</h2>
-  <div>
-    <label>Filter by category:</label>
-    <div>
-      <button *ngFor="let category of categories" [class.active]="category === selectedCategory" (click)="filterByCategory(category)">
+  <div class="recent-nft__heading">
+    <h2>New NFT'S</h2>
+    <ul class="recent-nft__categories">
+      <li *ngFor="let category of categories" [class.active]="category === selectedCategory"
+        (click)="filterByCategory(category)">
         {{ category }}
-      </button>
+      </li>
+    </ul>
+    <div class="recent-nft__explore">
+      <a href="">Explore More</a>
     </div>
   </div>
-
   <div *ngFor="let image of images">
     <img [src]="image.url" alt="{{ image.title }}" />
   </div>
 </div>
-
-ARREGLAR EL CODIGO CON RESPECTO AL FIGMA E INVESTIGAR COMO FUNCIONA ESTE CODIGO

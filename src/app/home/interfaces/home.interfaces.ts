@@ -5,7 +5,6 @@ export interface RecentUser {
   views: number;
   avatar: string;
 }
-
 export interface NewNft {
   id: number;
   title: string;

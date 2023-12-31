@@ -6,22 +6,53 @@
   margin: 2% 0 5% 0;
 }
 
+.recent-nft__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3.5%;
+}
+
 h2 {
   font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2em;
+  font-family: "Inter", sans-serif;
 }
 
-div {
+.recent-nft__categories {
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.2) 0%, rgba(63, 94, 251, 0.2) 100%);
+  list-style: none;
+  border-radius: 1.6em;
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-button {
-  margin-right: 10px;
-  margin-bottom: 10px;
+.recent-nft__categories li {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 9px 20px;
+  border-radius: 1.6em;
+  cursor: pointer;
 }
 
-button.active {
-  background-color: #4caf50;
-  color: white;
+.recent-nft__categories li:hover {
+  background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+  transition: all 0.3s ease;
+}
+
+.recent-nft__categories li.active {
+  background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%) !important;
+  transition: all 0.3s ease;
+}
+
+.recent-nft__explore {
+  background-color: #3772ff;
+  border-radius: 1.6em;
+  padding: 9px 25px;
+  cursor: pointer;
 }
