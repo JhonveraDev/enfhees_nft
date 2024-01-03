@@ -1,5 +1,8 @@
 # EnfheesNft
 
+Progress 01 - Home
+![](progress_preview/progress-01.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
 
 ## Development server
