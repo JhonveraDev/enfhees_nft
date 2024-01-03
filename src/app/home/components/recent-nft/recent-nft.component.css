@@ -56,3 +56,140 @@ h2 {
   padding: 9px 25px;
   cursor: pointer;
 }
+
+/* Card NFT */
+
+.recent-nft__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.recent-nft__card {
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.2) 0%, rgba(63, 94, 251, 0.2) 100%);
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.recent-nft__image {
+  position: relative;
+}
+
+.recent-nft__image img {
+  border-radius: 15px 15px 0px 0px;
+  cursor: pointer;
+}
+
+.recent-nft__views {
+  position: absolute;
+  z-index: 2;
+  right: 14px;
+  top: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1.6em;
+  padding: 2px 7px;
+  color: #050023;
+}
+
+.recent-nft__avatar {
+  position: absolute;
+  bottom: -13px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 6px;
+  background: rgb(221, 222, 251);
+  background: linear-gradient(256deg, rgba(221, 222, 251, 1) 12%, rgba(243, 219, 234, 1) 33%);
+  color: #050023;
+  font-size: 14px;
+  line-height: 1.5em;
+  padding-right: 15px;
+  border-radius: 1.6em;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.recent-nft__data {
+  padding: 0 10px;
+  margin-top: 35px;
+}
+
+.recent-nft__info h3 {
+  font-weight: 600;
+  line-height: 19px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.recent-nft__price {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.recent-nft__price b {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+.recent-nft__data hr {
+  background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+  opacity: 0.15;
+  margin-top: 12px;
+}
+
+.recent-nft__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0 10px;
+}
+
+.recent-nft__buttons a {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  transition: all 0.4s ease;
+}
+
+.recent-nft__buttons a:hover {
+  color: #3772ff;
+}
+
+.recent-nft__buttons a img {
+  width: 15px;
+  height: auto;
+  margin-top: 1px;
+}
+
+.recent-nft__buttons span {
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  background-color: #3772ff;
+  border-radius: 1.6em;
+  line-height: 1.5em;
+  padding: 4px 16px;
+  cursor: pointer;
+  margin: 3px;
+  transition: all 0.4s ease;
+}
+
+.recent-nft__buttons span:hover {
+  background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+}

@@ -17,7 +17,7 @@ export class RecentNftComponent implements OnInit {
   ngOnInit() {
     this.images = this._GalleryNewNftsService.getImages();
     this.categories = this._GalleryNewNftsService.getCategories();
-    this.selectedCategory = 'All NFT';
+    this.selectedCategory = 'All NFTs';
   }
 
   filterByCategory(category: string) {

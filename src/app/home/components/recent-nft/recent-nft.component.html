@@ -11,7 +11,28 @@
       <a href="">Explore More</a>
     </div>
   </div>
-  <div *ngFor="let image of images">
-    <img [src]="image.url" alt="{{ image.title }}" />
+
+  <div class="recent-nft__container">
+    <div *ngFor="let image of images" class="recent-nft__card">
+      <div class="recent-nft__image">
+        <span class="recent-nft__views">❤️2.1K</span>
+        <img [src]="image.url" alt="{{ image.title }}" />
+        <div class="recent-nft__avatar">
+          <img src="../../../../assets/avatar_12.png" alt="">
+          <span>Jonny E.</span>
+        </div>
+      </div>
+      <div class="recent-nft__data">
+        <div class="recent-nft__info">
+          <h3>Art work #2134</h3>
+          <span class="recent-nft__price">Current Bid: <b>0.29 ETH 7/21</b></span>
+        </div>
+        <hr>
+        <div class="recent-nft__buttons">
+          <a href=""><img src="../../../../assets/view.svg" alt="">View Item</a>
+          <span>Place Bid</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
