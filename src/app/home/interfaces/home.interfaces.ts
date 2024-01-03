@@ -10,4 +10,7 @@ export interface NewNft {
   title: string;
   category: string;
   url: string;
+  price:string;
+  user: string;
+  avatar:string;
 }
