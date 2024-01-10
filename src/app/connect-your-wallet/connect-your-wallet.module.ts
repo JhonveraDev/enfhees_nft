@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ConnectYourWalletComponent } from './pages/connect-your-wallet/connect-your-wallet.component';
+import { ConnectYourWalletRoutingModule } from './routes/connect-your-wallet-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { ConnectYourWalletComponent } from './pages/connect-your-wallet/connect-
     ConnectYourWalletComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ConnectYourWalletRoutingModule
   ]
 })
 export class ConnectYourWalletModule { }

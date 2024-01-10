@@ -6,6 +6,7 @@ import { RecentUsersComponent } from './components/recent-users/recent-users.com
 import { RecentNftComponent } from './components/recent-nft/recent-nft.component';
 
 import { FormsModule } from '@angular/forms';
+import { HomeRoutingModule } from './routes/home-routing.module';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HomeRoutingModule
   ],
   exports: [
 

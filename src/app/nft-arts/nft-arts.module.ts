@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NftArtsComponent } from './pages/nft-arts/nft-arts.component';
+import { NftArtsRoutingModule } from './routes/nft-arts-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { NftArtsComponent } from './pages/nft-arts/nft-arts.component';
     NftArtsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NftArtsRoutingModule
   ]
 })
 export class NftArtsModule { }

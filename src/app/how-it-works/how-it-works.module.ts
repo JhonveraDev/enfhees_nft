@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HowItWorksComponent } from './pages/how-it-works/how-it-works.component';
+import { HowItWorksRoutingRoutingModule } from './routes/how-it-works-routing-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { HowItWorksComponent } from './pages/how-it-works/how-it-works.component
     HowItWorksComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HowItWorksRoutingRoutingModule
   ]
 })
 export class HowItWorksModule { }
