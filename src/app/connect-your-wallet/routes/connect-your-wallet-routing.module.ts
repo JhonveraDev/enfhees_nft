@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { ConnectYourWalletComponent } from '../pages/connect-your-wallet/connect-your-wallet.component';
 
 const routes: Routes = [
-  { 
-    path: '', 
-    component: ConnectYourWalletComponent, 
-    title: 'Connect Your Wallet' 
+  {
+    path: '',
+    component: ConnectYourWalletComponent,
+    title: 'Connect Your Wallet'
   },
 ];
 

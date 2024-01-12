@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HowItWorksComponent } from '../pages/how-it-works/how-it-works.component';
 
 const routes: Routes = [
-  { 
-    path: '', 
-    component: HowItWorksComponent, 
-    title: 'How It Works' 
+  {
+    path: '',
+    component: HowItWorksComponent,
+    title: 'How It Works'
   },
 ];
 

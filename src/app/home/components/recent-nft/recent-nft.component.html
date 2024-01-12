@@ -15,7 +15,9 @@
     <div *ngFor="let image of images" class="recent-nft__card">
       <div class="recent-nft__image">
         <span class="recent-nft__views">❤️2.1K</span>
-        <img [src]="image.url" alt="{{ image.title }}" />
+        <div class="recent-nft__nft">
+          <img [src]="image.url" alt="{{ image.title }}" />
+        </div>
         <div class="recent-nft__avatar">
           <img [src]="image.avatar" alt="">
           <span>{{image.user}}</span>
@@ -35,7 +37,3 @@
     </div>
   </div>
 </div>
-
-//HACER ANIMACION EN LA IMAGEN COMO DE UN HOOVER AL PASAR EL MOUSE
-
-//GEMERAR LAS RUTAS POR MEDIO DE LOADCHILDREN Y LAZYLOAD

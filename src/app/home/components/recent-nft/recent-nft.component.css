@@ -75,11 +75,6 @@ h2 {
   position: relative;
 }
 
-.recent-nft__image img {
-  border-radius: 15px 15px 0px 0px;
-  cursor: pointer;
-}
-
 .recent-nft__views {
   position: absolute;
   z-index: 2;
@@ -94,6 +89,20 @@ h2 {
   border-radius: 1.6em;
   padding: 2px 7px;
   color: #050023;
+}
+
+.recent-nft__nft {
+  overflow: hidden;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.recent-nft__nft img {
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.recent-nft__nft img:hover {
+  transform: scale(1.05);
 }
 
 .recent-nft__avatar {

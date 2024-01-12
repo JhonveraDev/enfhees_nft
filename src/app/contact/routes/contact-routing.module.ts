@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from '../pages/contact/contact.component';
 
 const routes: Routes = [
-  { 
-    path: '', 
-    component: ContactComponent, 
-    title: 'Contact' 
+  {
+    path: '',
+    component: ContactComponent,
+    title: 'Contact'
   },
 ];
 
