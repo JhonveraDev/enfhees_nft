@@ -7,12 +7,14 @@ import { RecentNftComponent } from './components/recent-nft/recent-nft.component
 
 import { FormsModule } from '@angular/forms';
 import { HomeRoutingModule } from './routes/home-routing.module';
+import { TopCollectionComponent } from './components/top-collection/top-collection.component';
 @NgModule({
   declarations: [
     HomeComponent,
     CarouselComponent,
     RecentUsersComponent,
     RecentNftComponent,
+    TopCollectionComponent,
   ],
   imports: [
     CommonModule,

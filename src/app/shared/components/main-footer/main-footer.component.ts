@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { SocialItem } from '../../interfaces/shared.interface';
 
 @Component({
-  selector: 'app-main-footer',
+  selector: 'main-footer',
   templateUrl: './main-footer.component.html',
   styleUrls: ['./main-footer.component.css']
 })

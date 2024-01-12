@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Navigation } from '../../interfaces/shared.interface';
 @Component({
-  selector: 'app-main-menu',
+  selector: 'main-menu',
   templateUrl: './main-menu.component.html',
   styleUrls: ['./main-menu.component.css']
 })

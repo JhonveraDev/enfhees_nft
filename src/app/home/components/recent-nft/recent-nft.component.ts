@@ -3,7 +3,7 @@ import { GalleryNewNftsService } from '../../services/gallery-new-nfts.service';
 import { NewNft } from '../../interfaces/home.interfaces';
 
 @Component({
-  selector: 'app-recent-nft',
+  selector: 'recent-nft',
   templateUrl: './recent-nft.component.html',
   styleUrls: ['./recent-nft.component.css']
 })

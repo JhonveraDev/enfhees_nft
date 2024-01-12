@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RecentUser } from '../../interfaces/home.interfaces';
 
 @Component({
-  selector: 'app-recent-users',
+  selector: 'recent-users',
   templateUrl: './recent-users.component.html',
   styleUrls: ['./recent-users.component.css']
 })

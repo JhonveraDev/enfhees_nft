@@ -1,0 +1,142 @@
+.top-collection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3.5% 0 5% 0;
+}
+
+.top-collection__cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.top-collection__card {
+  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.2) 0%, rgba(63, 94, 251, 0.2) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.top-collection__card .top-collection__banner {
+  border-radius: 22px 22px 0 0;
+  padding: 10px 10px 0 10px;
+}
+
+.top-collection__card .top-collection__avatar {
+  margin: -36px auto 7px;
+}
+
+.top-collection__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px 5px;
+}
+
+.top-collection__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.top-collection__data .top-collection__items {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.top-collection__data .top-collection__items img {
+  width: 16px;
+  line-height: 1.6em;
+  margin-right: 5px;
+}
+
+.top-collection__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.top-collection__info hr {
+  width: 100%;
+  border: 1px solid #eeeeff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-collection__info h3 a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.top-collection__authentic {
+  display: flex;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.top-collection__items span {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.top-collection__footer h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.top-collection__footer p {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.top-collection__authentic img {
+  width: 15px;
+  margin-right: 5px;
+  height: auto;
+}
+
+.top-collection__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3.5%;
+}
+
+.top-collection__explore {
+  background-color: #3772ff;
+  border-radius: 1.6em;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+
+.top-collection__heading h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2em;
+  font-family: "Inter", sans-serif;
+}
